@@ -1,8 +1,26 @@
 aid: topline-pro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topline-pro.png
 name: Topline Pro
-description: 'Topline Pro is a company surfaced as a portfolio company of forerunner-ventures, northzone
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Topline Pro is an AI-powered business management platform for local and
+  home service professionals in the United States — contractors, landscapers, painters,
+  roofers, cleaners, and other owner-operated service companies. It provides AI-generated
+  websites, local marketing and online discovery, lead capture with automated follow-up,
+  AI-assisted customer communication, appointment and job scheduling, and invoicing
+  with automated payment collection. Topline Pro is backed by Forerunner Ventures and
+  Northzone. As of this enrichment pass it exposes no public developer API, SDK, gRPC,
+  AsyncAPI, or /.well-known discovery surface; it does publish an llms.txt at its marketing
+  domain that describes the platform for AI agents.'
 url: https://raw.githubusercontent.com/api-evangelist/topline-pro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- AI
+- Local Services
+- Home Services
+- Marketing
+- Scheduling
+- Invoicing
+- Payments
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://toplinepro.com
+- type: Pricing
+  url: https://toplinepro.com/pricing
+- type: Blog
+  url: https://toplinepro.com/blog
+- type: PrivacyPolicy
+  url: https://toplinepro.com/privacy
+- type: Support
+  url: https://help.toplinepro.com
+- type: LLMsTxt
+  url: llms/topline-pro-llms.txt
+- type: DomainSecurity
+  url: security/topline-pro-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
