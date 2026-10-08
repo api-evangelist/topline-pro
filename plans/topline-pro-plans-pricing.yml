@@ -1,0 +1,86 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.toplinepro.com/compare-topline-pro
+sources:
+- https://www.toplinepro.com/compare-topline-pro
+- https://toplinepro.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Monthly/yearly tiered subscription for service businesses; payment processing fee 2.9% and $0.30
+  per transaction; prices in USD excluding sales tax.
+plan_count: 8
+currency: USD
+plans:
+- name: Starter plan
+  price_text: $249 /mo
+  price: 249
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Professional custom website – unlimited updates; Google Business Profile setup + SEO-optimized
+    site; unlimited review requests; unlimited social posts; AI quotes, invoices, payments, scheduling
+    & unlimited users
+  overage: 2.9% and $0.30 per transaction
+- name: Core plan
+  price_text: $349 /mo
+  price: 349
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Everything in Starter, plus 4 done-for-you SEO blogs/month, 2 Google Business Profile
+    posts/week, 1 Facebook post/week, Nextdoor opportunities
+  overage: 2.9% and $0.30 per transaction
+- name: Pro plan
+  price_text: $399 /mo
+  price: 399
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Everything in Core, plus Nextdoor prospect feed, 2 Facebook posts/week with photo +
+    video, project showcases, tap-to-review cards
+  overage: 2.9% and $0.30 per transaction
+- name: Starter plan (promo/yearly)
+  price_text: $199 /month
+  price: 199
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: First 3 months 20% off, then $249/mo; or 20% off every month for the full year ($600
+    savings)
+- name: Core plan (promo/yearly)
+  price_text: $279 /month
+  price: 279
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Then $349/mo; yearly $840 savings
+- name: Pro plan (promo/yearly)
+  price_text: $319 /month
+  price: 319
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Then $399/mo; yearly $960 savings
+- name: 'Add-on: AI Voice answering'
+  price_text: $100 /month
+  price: 100
+  currency: USD
+  period: month
+  unit: add-on
+  included_quota: Sidekick answers your calls
+- name: 'Add-on: Google Ads management'
+  price_text: just 20% of ad spend minimum of $150/month
+  currency: USD
+  period: month
+  unit: '% of ad spend'
+  included_quota: Campaign setup, optimization, ad copy
